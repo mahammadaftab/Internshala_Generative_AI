@@ -1,0 +1,63 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.page-header {
+  background: #1d4ed8;
+  color: white;
+  padding: 2rem 1.5rem;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.page-header h1 {
+  margin: 0 0 0.5rem;
+}
+
+.page-header p {
+  margin: 0;
+  max-width: 760px;
+  line-height: 1.6;
+}
+
+.first-div {
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 14px;
+  padding: 1.25rem 20px;
+  margin-bottom: 1.5rem;
+}
+
+.first-div h2 {
+  margin-top: 0;
+}
+
+.feature-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.feature-section article {
+  background: #ffffff;
+  padding: 1.25rem;
+  border-radius: 14px;
+  border: 1px solid #e5e7eb;
+}
+
+.feature-section h3 {
+  margin-top: 0;
+}

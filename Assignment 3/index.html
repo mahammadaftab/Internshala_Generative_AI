@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Web Showcase</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <h1>Creative Web Showcase</h1>
+        <p>Build a beautiful web page using HTML and CSS, with forms, images, and styled content.</p>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="eyebrow">HTML Project</span>
+          <h2>Design that looks polished and works beautifully.</h2>
+          <p>Showcasing modern HTML structure, thoughtful content sections, and clean CSS styling to reflect your understanding of web development principles.</p>
+          <a class="button" href="#contact">Start a Project</a>
+        </div>
+        <div class="hero-image">
+          <img src="image.svg" alt="Web design illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about-section">
+      <div class="section-header">
+        <h3>About This Page</h3>
+        <p>This page demonstrates headers, paragraphs, lists, image content, and an interactive contact form with responsive styling.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <h4>Clean Structure</h4>
+          <p>Semantic HTML sections keep the page easy to read and maintain, while headings and paragraphs present information clearly.</p>
+        </article>
+        <article class="card">
+          <h4>Stylish Design</h4>
+          <p>CSS brings the layout to life with attractive colors, spacing, and responsive behavior for mobiles and desktops.</p>
+        </article>
+        <article class="card">
+          <h4>Interactive Forms</h4>
+          <p>The contact form collects user input with labels, placeholders, and button interactions to improve usability.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="features" class="container features-section">
+      <div class="section-header">
+        <h3>Key Features</h3>
+      </div>
+      <div class="feature-grid">
+        <div class="feature-item">
+          <h4>Responsive Layout</h4>
+          <p>Adaptable page layout that works well on both desktop and mobile screens.</p>
+        </div>
+        <div class="feature-item">
+          <h4>Image Integration</h4>
+          <p>Includes a custom SVG illustration to represent page content visually.</p>
+        </div>
+        <div class="feature-item">
+          <h4>Form Elements</h4>
+          <p>Uses labels, text inputs, textarea, and buttons to capture visitor information.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact-section">
+      <div class="section-header">
+        <h3>Contact Me</h3>
+        <p>Fill out the form below to send a message about your project or coursework.</p>
+      </div>
+      <form class="contact-form">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your idea" required></textarea>
+        </div>
+        <button type="submit" class="button">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Creative Web Showcase. Built with HTML & CSS.</p>
+    </div>
+  </footer>
+</body>
+</html>
