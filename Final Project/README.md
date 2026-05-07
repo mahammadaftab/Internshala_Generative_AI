@@ -36,6 +36,7 @@ EduGenie is a web-based AI tool that dynamically generates comprehensive educati
    # On Linux/macOS
    export OPENROUTER_API_KEY="your-openrouter-api-key-here"
    ```
+   
 
 3. **Run the application**:
    ```bash
